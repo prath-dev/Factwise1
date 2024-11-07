@@ -1,0 +1,23 @@
+.faqcard {
+max-width:500px;
+width: 50%;
+background-color: rgb(243 244 246 )
+}
+.user-info-container {
+   display: flex;
+   justify-content: space-between;
+   border:2px solid gray;
+   margin-bottom:1rem;
+}
+.user-info {
+ padding:0.4rem;
+}
+.user-info img {
+    height: 3rem;
+    width: 3rem;
+    border-radius:30px;
+    
+}
+.toogle-btn {
+    padding:1rem;
+}

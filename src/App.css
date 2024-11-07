@@ -1,0 +1,57 @@
+.List {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{
+    position: absolute;
+}
+.delete-dialog {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width:23rem;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-dialog p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-button, .delete-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cancel Button Style */
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .cancel-button:hover {
+    background-color: #bbb;
+  }
+  
+  /* Delete Button Style */
+  .delete-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
